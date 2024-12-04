@@ -1,0 +1,30 @@
+#Archivos y carpetas de Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+#Entornos virtuales
+env/
+venv/
+*.env
+
+#Jupyter Notebook
+.ipynb_checkpoints/
+
+#paquetes
+build/
+dist/
+*.egg-info/
+*.egg
+
+#configuración de herramientas
+*.mypy_cache/
+.pytest_cache/
+
+#Archivos de pruebas
+tests/__pycache__/
+tests/*.pyc
+
+#Archivos generados por setup.py
+MANIFEST
